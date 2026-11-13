@@ -3,6 +3,6 @@
 $name = $_GET['name'] ?? 'World';
 header('Content-Type: application/json');
 echo json_encode([
-    "message" => "Hello, $name! (version 1)",
+    "message" => "Hello, $name! (version 2)",
     "time" => date('c')
 ]);
